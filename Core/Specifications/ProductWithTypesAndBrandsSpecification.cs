@@ -29,7 +29,7 @@ namespace Core.Specifications
                         AddOrderByDescending(p => p.Price);
                         break;
                     default:
-                        AddOrderByDescending(n => n.Name);
+                        AddOrderBy(n => n.Name);
                         break;
                 }
             }
